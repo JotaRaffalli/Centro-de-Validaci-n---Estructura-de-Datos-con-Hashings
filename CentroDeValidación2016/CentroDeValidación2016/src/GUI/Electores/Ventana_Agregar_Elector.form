@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="AgregarUsuario" min="-2" pref="100" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="AgregarNombre" max="32767" attributes="0"/>
+                              <Component id="AgregarCedula" alignment="1" max="32767" attributes="0"/>
+                              <Component id="AgregarNacimiento" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="AgregarCedulaTF" pref="225" max="32767" attributes="0"/>
+                          <Component id="AgregarNombreTF" max="32767" attributes="0"/>
+                          <Component id="AgregarNacimientoTF" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="AgregarLatitud" alignment="1" max="32767" attributes="0"/>
+                          <Component id="AgregarLongitud" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="AgregarLatitudTF" pref="120" max="32767" attributes="0"/>
+                          <Component id="AgregarLongitudTF" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AgregarNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AgregarNombreTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AgregarCedulaTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AgregarCedula" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AgregarNacimiento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AgregarNacimientoTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AgregarLatitud" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AgregarLatitudTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AgregarLongitud" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AgregarLongitudTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="AgregarUsuario" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="AgregarNombre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre Completo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AgregarNombreTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="AgregarCedula">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe9;dula"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AgregarCedulaTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="AgregarNacimiento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fecha de Nacimiento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AgregarNacimientoTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="AgregarLatitud">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Latitud de Domicilio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AgregarLatitudTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="AgregarLongitud">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Longitud de Domicilio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AgregarLongitudTF">
+    </Component>
+    <Component class="javax.swing.JButton" name="AgregarUsuario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Agregar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="AgregarUsuarioMouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

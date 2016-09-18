@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" max="32767" attributes="0"/>
+                  <Component id="jLabel2" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="DistanciaNTF" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="BuscarCentros" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="atras" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="InfoCentro" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="BuscarNombre" max="32767" attributes="0"/>
+                                  <Component id="BuscarCedula" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="BuscarNacimiento" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="BuscarLatitud" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="BuscarLongitud" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="BuscarCedulaTF" alignment="0" pref="167" max="32767" attributes="0"/>
+                                  <Component id="BuscarNacimientoTF" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="BuscarNombreTF" max="32767" attributes="0"/>
+                                  <Component id="BuscarLongitudTF" alignment="0" pref="167" max="32767" attributes="0"/>
+                                  <Component id="BuscarLatitudTF" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jScrollPane1" alignment="0" min="-2" pref="302" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BuscarNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuscarNombreTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BuscarCedulaTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuscarCedula" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BuscarNacimiento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuscarNacimientoTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BuscarLatitud" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuscarLatitudTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BuscarLongitud" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuscarLongitudTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="14" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="DistanciaNTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="BuscarCentros" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="atras" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="InfoCentro" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="34" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="BuscarNombre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre Completo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuscarNombreTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="BuscarCedula">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe9;dula"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuscarCedulaTF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BuscarNacimiento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fecha de Nacimiento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuscarNacimientoTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="BuscarLatitud">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Latitud de Domicilio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuscarLatitudTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="BuscarLongitud">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Longitud de Domicilio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuscarLongitudTF">
+    </Component>
+    <Component class="javax.swing.JButton" name="BuscarCentros">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar Centros"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BuscarCentrosMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" Por favor ingrese una distancia en Km con respecto a su domicilio"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=" para conocer cuales centros de Validaci&#xf3;n est&#xe1;n cerca de usted."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="DistanciaNTF">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="ListaCentros">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="InfoCentro">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Microsoft YaHei" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ver Centro de Validaci&#xf3;n"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="InfoCentroMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="atras">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atr&#xe1;s"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="atrasMouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

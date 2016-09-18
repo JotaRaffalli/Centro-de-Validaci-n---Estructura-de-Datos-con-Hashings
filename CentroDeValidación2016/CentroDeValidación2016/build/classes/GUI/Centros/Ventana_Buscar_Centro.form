@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="AtrasCentro" min="-2" pref="100" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="BuscarNombreCentro" max="32767" attributes="0"/>
+                      <Component id="BuscarNumeroCentro" alignment="1" max="32767" attributes="0"/>
+                      <Component id="BuscarDireccionCentro" alignment="1" max="32767" attributes="0"/>
+                      <Component id="BuscarLatitudCentro" alignment="1" max="32767" attributes="0"/>
+                      <Component id="BuscarLongitudCentro" alignment="1" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="BuscarNumeroCentroTF" pref="225" max="32767" attributes="0"/>
+                  <Component id="BuscarNombreCentroTF" max="32767" attributes="0"/>
+                  <Component id="BuscarDireccionCentroTF" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="BuscarLatitudCentroTF" pref="120" max="32767" attributes="0"/>
+                          <Component id="BuscarLongitudCentroTF" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BuscarNombreCentro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuscarNombreCentroTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BuscarNumeroCentroTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuscarNumeroCentro" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BuscarDireccionCentro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuscarDireccionCentroTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BuscarLatitudCentro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuscarLatitudCentroTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BuscarLongitudCentro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuscarLongitudCentroTF" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="AtrasCentro" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="BuscarNombreCentro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre del Centro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuscarNombreCentroTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="BuscarNumeroCentro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero del Centro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuscarNumeroCentroTF">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BuscarDireccionCentro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Direcci&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuscarDireccionCentroTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="BuscarLatitudCentro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Latitud del Centro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuscarLatitudCentroTF">
+    </Component>
+    <Component class="javax.swing.JLabel" name="BuscarLongitudCentro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Longitud del Centro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuscarLongitudCentroTF">
+    </Component>
+    <Component class="javax.swing.JButton" name="AtrasCentro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atr&#xe1;s"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="AtrasCentroMouseClicked"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
