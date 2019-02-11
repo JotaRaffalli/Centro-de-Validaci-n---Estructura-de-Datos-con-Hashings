@@ -7,13 +7,13 @@ determina los centros de validación más cercanos a los usuarios, a
 través de sus coordenadas locales. Además, realiza búsquedas en Hashmaps
 de los objetos perosnas almacenados en la base de datos.
 
-#Previews
+# Previews
 
-##1 
+
 ![alt tag](https://github.com/JotaRaffalli/Centro_de_Validacion-Estructura_de_Datos_con_Hashmap/blob/master/Imagenes%20preview/Screenshot%20(7).png)
-##2
+
 ![alt tag](https://github.com/JotaRaffalli/Centro_de_Validacion-Estructura_de_Datos_con_Hashmap/blob/master/Imagenes%20preview/Screenshot%20(8).png)
-##3 
+
 ![alt tag](https://github.com/JotaRaffalli/Centro_de_Validacion-Estructura_de_Datos_con_Hashmap/blob/master/Imagenes%20preview/Screenshot%20(10).png)
-##4
+
 ![alt tag](https://github.com/JotaRaffalli/Centro_de_Validacion-Estructura_de_Datos_con_Hashmap/blob/master/Imagenes%20preview/Screenshot%20(9).png)
